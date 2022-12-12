@@ -105,7 +105,7 @@ function drawScore() {
 }
 
 function drawGameOver() {
-  ctx.fillStyle = 'black';
+  ctx.fillStyle = 'white';
   ctx.fillText(`GAME OVER, your score is ${score}`, canvas.width / 2, canvas.height / 2)
 }
 
